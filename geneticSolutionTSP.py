@@ -59,6 +59,7 @@ gene_pool = [getRandomPath(NO_OF_CITIES) for i in range(NO_OF_INDIVIDUALS)]
 euclidean_distances = [getEuclideanDistance(p) for p in gene_pool]
 
 
+
 class Index(object):
     ind = 0
 
